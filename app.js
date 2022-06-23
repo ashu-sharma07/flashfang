@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 //  Handle get request to root route
 
 app.get("/", function (req, res) {
-  res.sendFile(__dirname+"/public/index.html");
+  res.render("index");
 });
 
 // Starting app on 3000

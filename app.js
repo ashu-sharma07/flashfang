@@ -17,7 +17,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 //  Handle get request to root route
 
 app.get("/", function (req, res) {
-  res.render("index");
+  const bodyTitle = "leaning is fun !";
+  res.render("index",{bodyTitle: bodyTitle});
 });
 
 // Starting app on 3000

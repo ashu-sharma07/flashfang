@@ -1,0 +1,24 @@
+{
+  "name": "flashfang",
+  "version": "1.0.0",
+  "description": "FlashFang Learn new words the easy way sunglasses.",
+  "main": "app.js",
+  "scripts": {
+    "test": "master-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashu-sharma07/flashfang.git"
+  },
+  "keywords": [
+    "language",
+    "flash",
+    "cards"
+  ],
+  "author": "Ashu Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashu-sharma07/flashfang/issues"
+  },
+  "homepage": "https://github.com/ashu-sharma07/flashfang#readme"
+}

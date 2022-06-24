@@ -1,24 +1,40 @@
-body{
-    background-color: #F08A5D;
-    color: #112D4E;
-    font-family: 'Ubuntu', sans-serif;
+body {
+  background-color: #f08a5d;
+  color: #112d4e;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-h1{
-    color: #112D4E;
+.brand-logo {
+  color: #112d4e;
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline-block;
+  padding: 12px 0 12px 21px;
 }
 
-/* fonts  */
+.nav-bar {
+  width: 100%;
+  height: 70px;
+  background-color: #b83b5e;
+}
 
-/* font-family: 'Titan One', cursive;
-font-family: 'Ubuntu', sans-serif; */
+.nav-items {
+  display: inline-block;
+  padding-left: 50%;
+}
 
+.nav-list {
+  display: inline-block;
+  list-style: none;
+}
 
-/* color Palletes */
-/* 
-#F9ED69
-#F08A5D
-#B83B5E
-#6A2C70
- */
+.nav-bar-items {
+  display: inline-block;
+}
 
+.nav-bar-items a {
+  text-decoration: none;
+  color: #112d4e;
+}

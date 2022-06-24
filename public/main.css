@@ -49,3 +49,24 @@ body {
 a:hover{
     color: #064663;
 }
+
+.card{
+  height: 500px;
+  width: 500px;
+  background-color: #F9ED69;
+  margin: 50px auto 10px;
+}
+
+.card-heading-box{
+  height: 70px;
+  width: 500px;
+  display: inline-block;
+  background-color: #DF7861;
+}
+
+.card-heading{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 22px;
+}

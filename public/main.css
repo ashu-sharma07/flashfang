@@ -47,7 +47,7 @@ body {
 }
 
 a:hover{
-    color: #064663;
+    color: #525E75;
 }
 
 .card{
@@ -101,7 +101,7 @@ a:hover{
 .userInput{
   padding: 10px;
   font-family: "Ubuntu", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   text-align: center;
   border: solid #DF7861;
   border-radius: 10px;

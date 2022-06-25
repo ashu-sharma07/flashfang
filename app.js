@@ -17,8 +17,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 //  Handle get request to root route
 
 app.get("/", function (req, res) {
-  const bodyTitle = "leaning is fun !";
-  res.render("index",{bodyTitle: bodyTitle});
+  const englishWord = "Am";
+  res.render("index",{englishWord: englishWord});
 });
 
 app.get("/contact", function(req, res){
@@ -32,6 +32,17 @@ app.get("/about", function(req, res){
 app.get("/add", function(req, res){
   res.render("add");
 });
+
+// Handling post request
+
+app.post("/", function(req, res){
+  console.log(req.body.userWord);
+  res.redirect("/");
+});
+
+
+
+
 
 // Starting app on 3000
 

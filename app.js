@@ -21,6 +21,18 @@ app.get("/", function (req, res) {
   res.render("index",{bodyTitle: bodyTitle});
 });
 
+app.get("/contact", function(req, res){
+  res.render("contact");
+});
+
+app.get("/about", function(req, res){
+  res.render("about");
+})
+
+app.get("/add", function(req, res){
+  res.render("add");
+});
+
 // Starting app on 3000
 
 app.listen(3000, function () {

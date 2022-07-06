@@ -106,6 +106,7 @@ a:hover{
   border: solid #DF7861;
   border-radius: 10px;
   border-width: 6px;
+  background-color: #FFFFDE;
 }
 
 .user-form{

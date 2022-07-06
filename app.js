@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 //  Handle get request to root route
 
 app.get("/", function (req, res) {
-  const englishWord = "Am";
+  const englishWord = "Juice";
   res.render("index",{englishWord: englishWord});
 });
 
